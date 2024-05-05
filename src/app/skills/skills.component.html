@@ -1,0 +1,11 @@
+<div>
+    SKILLS
+
+    <div *ngFor="let skill of skills">
+        {{skill.name}}
+        <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+            <div [class]="'progress-bar w-' + skill.progress"></div>
+        </div>
+    </div>
+
+</div>

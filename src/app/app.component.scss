@@ -1,0 +1,33 @@
+.left-side-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.option-select-container{
+    display: flex;
+    gap: 5px;
+}
+.badge{
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}

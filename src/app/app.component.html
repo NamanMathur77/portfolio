@@ -1,0 +1,32 @@
+<div>
+
+<div class="row">
+  <!-- personal information -->
+  <div class="col-md-3 left-side-container">
+    <!-- Profile picture -->
+    <img class="profile-image" src="../assets/priyanka.jpeg" alt="">
+    <!-- designation -->
+    <p><strong>{{userData?.personal_info.designation}}</strong></p>
+    <!-- short description -->
+    <p>{{userData?.personal_info.short_description}}</p>
+    <!-- Links -->
+
+    
+
+  </div>
+  <div class="col-md-8">
+    <div class="option-select-container">
+      <span class="badge badge-pill badge-primary" (click)="selectOption(0)">Work</span>
+      <span class="badge badge-pill badge-primary" (click)="selectOption(1)">Skill</span>
+      <span class="badge badge-pill badge-primary" (click)="selectOption(2)">Projects</span>
+      <span class="badge badge-pill badge-primary" (click)="selectOption(3)">Education</span>
+    </div>
+
+
+    <div *ngIf="selectedOption==1">
+      <app-skills></app-skills>
+    </div>
+    
+  </div>
+</div>
+</div>

@@ -1,0 +1,28 @@
+{
+    "personal_info": {
+        "designation": "Software Engineer | Professional sleeping beauty",
+        "short_description": "Hi I am a software engineer passionate for front end development in angular",
+        "links":[
+            {"instagram": "insta.com"},
+            {"instagram": "insta.com"},
+            {"instagram": "insta.com"}
+        ]
+    },
+    "skills":[
+        {"name": "angular", "progress":"75"},
+        {"name": "HTML", "progress":"50"},
+        {"name": "CSS", "progress":"75"},
+        {"name": "SQL", "progress":"75"},
+        {"name": ".Net", "progress":"25"}
+
+    ],
+    "projects":{
+
+    },
+    "achievements":{
+
+    },
+    "education":{
+
+    }
+}
